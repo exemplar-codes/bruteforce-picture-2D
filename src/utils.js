@@ -32,6 +32,5 @@ export const defaultPicture = (n = 30) => {
       ]);
     arr.push(newArr);
   }
-  console.log(arr);
   return arr;
 };
