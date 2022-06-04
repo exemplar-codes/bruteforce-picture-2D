@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/bruteforce-picture-2d/static/js/main.f98cbb86.js",
+    "main.js": "/bruteforce-picture-2d/static/js/main.f2a72580.js",
     "index.html": "/bruteforce-picture-2d/index.html",
-    "main.f98cbb86.js.map": "/bruteforce-picture-2d/static/js/main.f98cbb86.js.map"
+    "main.f2a72580.js.map": "/bruteforce-picture-2d/static/js/main.f2a72580.js.map"
   },
   "entrypoints": [
-    "static/js/main.f98cbb86.js"
+    "static/js/main.f2a72580.js"
   ]
 }
