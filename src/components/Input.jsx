@@ -32,7 +32,6 @@ function Input(props) {
 
   return (
     <>
-      <h3>Input</h3>
       {gibberishEntered && (
         <h4 style={{ color: "red" }}>Warning: 'Bad Input'</h4>
       )}
