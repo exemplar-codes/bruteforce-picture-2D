@@ -25,7 +25,11 @@ export const defaultPicture = (n = 30) => {
   for (let i = 0; i < n; i++) {
     let newArr = [];
     for (let j = 0; j < n; j++)
-      newArr.push(new Array(3).fill(((i + j) % 2) * 255));
+      newArr.push([
+        Math.random() * 255,
+        Math.random() * 255,
+        Math.random() * 255,
+      ]);
     arr.push(newArr);
   }
   console.log(arr);
