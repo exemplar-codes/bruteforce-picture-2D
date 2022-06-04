@@ -48,7 +48,12 @@ function Input(props) {
         <label>
           Enter picture grid as 2D array (default chess board){": "}
         </label>
-        <input type="text" name="image-arr" ref={imageArrRef} />
+        <input
+          type="text"
+          name="image-arr"
+          ref={imageArrRef}
+          placeholder={"[[255, 0, 63], [0, 254, 32]]"}
+        />
         <br />
         <br />
         <input type="reset" id="name" />
