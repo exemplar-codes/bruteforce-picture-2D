@@ -15,7 +15,7 @@ Output.propTypes = {
 
 Output.defaultProps = {
   imageArr: defaultPicture(40),
-  pixelWidth: 12,
+  pixelWidth: 10,
 };
 
 export default Output;
