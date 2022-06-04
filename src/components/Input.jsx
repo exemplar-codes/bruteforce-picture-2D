@@ -37,12 +37,12 @@ function Input(props) {
         <h4 style={{ color: "red" }}>Warning: 'Bad Input'</h4>
       )}
       <form onSubmit={onSubmitHandler}>
-        <label name="px-width">Pixel width (default 50){": "}</label>
+        <label name="px-width">Pixel width (default 12){": "}</label>
         <input
           type="number"
           min="1"
           name="px-width"
-          defaultValue={50}
+          defaultValue={12}
           ref={pxWidthRef}
         />
         <br />
