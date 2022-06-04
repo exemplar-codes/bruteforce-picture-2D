@@ -46,7 +46,7 @@ function Input(props) {
         />
         <br />
         <label>
-          Enter picture grid as 2D array (default chess board){": "}
+          Enter picture grid as 2D array (default: random square grid){": "}
         </label>
         <input
           type="text"
