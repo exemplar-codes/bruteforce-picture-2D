@@ -20,13 +20,11 @@ function Picture(props) {
                 key={j}
                 className="picture__cell"
                 style={{
-                  backgroundColor: cell ? "black" : `rgba(${255}, 255, 255)`,
+                  backgroundColor: `rgb(${cell[0]}, ${cell[1]}, ${cell[2]})`,
                   width: pixelWidth,
                   height: pixelWidth,
                 }}
-              >
-                {" "}
-              </div>
+              ></div>
             ))}
           </div>
         ))}
@@ -36,7 +34,11 @@ function Picture(props) {
 }
 
 Picture.propTypes = {
-  imageArr: PropType.arrayOf(PropType.arrayOf(PropType.number)),
+  imageArr: PropType.arrayOf(
+    PropType.arrayOf(
+      PropType.arrayOf(PropType.number, PropType.number, PropType.number)
+    )
+  ),
   pixelWidth: PropType.number,
 };
 

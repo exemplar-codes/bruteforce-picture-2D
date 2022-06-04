@@ -1,7 +1,7 @@
 import React from "react";
 import PropType from "prop-types";
 
-import { isRectangularArray } from "../utils";
+import { isRectangularArrayOfColors } from "../utils";
 import { useRef, useState } from "react";
 
 function Input(props) {
@@ -16,7 +16,7 @@ function Input(props) {
     const pxWidth = Number(pxWidthRef.current.value.trim());
     try {
       const imageArr = eval(imageArrRef.current.value);
-      if (!imageArr || isRectangularArray(imageArr))
+      if (!imageArr || isRectangularArrayOfColors(imageArr))
         // empty input is OK
         props.setImageArr(imageArr);
       else throw "Not an array";

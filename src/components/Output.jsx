@@ -9,7 +9,7 @@ function Output(props) {
 }
 
 Output.propTypes = {
-  imageArr: PropType.arrayOf(PropType.arrayOf(PropType.number)),
+  imageArr: PropType.array,
   pixelWidth: PropType.number,
 };
 
